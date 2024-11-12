@@ -6,6 +6,6 @@ import es.iesjandula.Universidad.utils.UniversidadExceptions;
 
 public interface IParseoDepartamento
 {
-	public void parseoDepartamento(Scanner sc) throws UniversidadExceptions;
+	public void parseoDepartamento(Scanner scanner) throws UniversidadExceptions;
 
 }

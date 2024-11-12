@@ -3,12 +3,14 @@ package es.iesjandula.Universidad.parsers;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import es.iesjandula.Universidad.interfaces.IParseoDepartamento;
 import es.iesjandula.Universidad.models.Departamento;
 import es.iesjandula.Universidad.repository.DepartamentoRepository;
 import es.iesjandula.Universidad.utils.UniversidadExceptions;
 
+@Service
 public class ParseoDepartamentoImpl implements IParseoDepartamento
 {
 	@Autowired
