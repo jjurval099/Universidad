@@ -21,17 +21,17 @@ public class Matricula
 	private MatriculaId matriculaId;
 	
 	@ManyToOne
-	@JoinColumn(name = "id_alumno")
+	@JoinColumn(name = "idAlumno")
 	@MapsId("idAlumno")
 	private Alumno idAlumno;
 	
 	@ManyToOne
-	@JoinColumn(name = "id_asignatura")
+	@JoinColumn(name = "idAsignatura")
 	@MapsId("idAsignatura")
 	private Asignatura idAsignatura;
 	
 	@ManyToOne
-	@JoinColumn(name = "id_curso")
+	@JoinColumn(name = "idCurso")
 	@MapsId("idCurso")
 	private Curso idCurso;
 	

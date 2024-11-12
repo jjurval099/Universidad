@@ -20,12 +20,44 @@ public class Departamento
 {
 	@Id
 	@Column(length = 10)
-	private Long id;
+	private Integer id;
 	
 	@Column(length = 50, nullable = false)
 	private String nombre;
 	
 	@OneToMany(mappedBy = "idDepartamento")
 	private List<Profesor>profesor;
+
+	public Integer getId() 
+	{
+		return id;
+	}
+
+	public void setId(Integer id) 
+	{
+		this.id = id;
+	}
+
+	public String getNombre() 
+	{
+		return nombre;
+	}
+
+	public void setNombre(String nombre) 
+	{
+		this.nombre = nombre;
+	}
+
+	public List<Profesor> getProfesor()
+	{
+		return profesor;
+	}
+
+	public void setProfesor(List<Profesor> profesor)
+	{
+		this.profesor = profesor;
+	}
+	
+	
 	
 }

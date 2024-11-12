@@ -21,7 +21,7 @@ public class Asignatura
 {
 	@Id
 	@Column(length = 10)
-	private Long id;
+	private Integer idAsignatura;
 	
 	@Column(length = 10)
 	private int creditos;

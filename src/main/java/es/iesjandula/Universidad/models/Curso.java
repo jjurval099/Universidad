@@ -20,7 +20,7 @@ public class Curso
 {	
 	@Id
 	@Column(length = 10)
-	private Long id;
+	private Integer idCurso;
 	
 	@Column(length = 4, nullable = false)
 	private int aroInicio;

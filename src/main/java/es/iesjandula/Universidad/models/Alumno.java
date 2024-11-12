@@ -20,7 +20,7 @@ public class Alumno
 {
 	@Id
 	@Column(length = 10)
-	private Integer id;
+	private Integer idAlumno;
 	
 	@Column(length = 9, nullable = false)
 	private String nif;

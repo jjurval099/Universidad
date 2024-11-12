@@ -2,7 +2,9 @@ package es.iesjandula.Universidad.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AlumnoRepository extends JpaRepository<AlumnoRepository, Integer>
+import es.iesjandula.Universidad.models.Alumno;
+
+public interface AlumnoRepository extends JpaRepository<Alumno, Integer>
 {
 
 }
