@@ -1,0 +1,4 @@
+idAlumno,nif,nombre,fechNac,apellido1,apellido2,ciudad,direccion,sexo,telefono
+101,12345678A,Ana,2000-03-15,García,López,Madrid,Calle Mayor 1,Femenino,600123456
+102,87654321B,Carlos,1999-08-22,Fernández,Ruiz,Barcelona,Calle Luna 2,Masculino,600654321
+103,11223344C,Lucía,2001-12-05,Martínez,Pérez,Valencia,Calle Sol 3,Femenino,600987654

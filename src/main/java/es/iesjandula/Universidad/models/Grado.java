@@ -27,5 +27,4 @@ public class Grado
 	
 	@OneToMany(mappedBy = "idGrado")
 	private List<Asignatura> asignatura;
-
 }

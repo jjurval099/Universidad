@@ -23,10 +23,10 @@ public class Curso
 	private Integer idCurso;
 	
 	@Column(length = 4, nullable = false)
-	private int aroInicio;
+	private Integer aroInicio;
 	
 	@Column(length = 4, nullable = false)
-	private int aroFin;
+	private Integer aroFin;
 	
 	@OneToMany(mappedBy = "idCurso")
 	private List<Matricula>matricula;
