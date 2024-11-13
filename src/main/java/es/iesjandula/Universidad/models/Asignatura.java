@@ -24,13 +24,13 @@ public class Asignatura
 	private Integer idAsignatura;
 	
 	@Column(length = 10)
-	private int creditos;
+	private Integer creditos;
 	
 	@Column(length = 10)
-	private int cuatrimestre;
+	private Integer cuatrimestre;
 	
 	@Column(length = 10)
-	private int curso;
+	private Integer curso;
 	
 	@Column(length = 15)
 	private String nombre;

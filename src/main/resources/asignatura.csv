@@ -1,0 +1,4 @@
+idAsignatura,creditos,cuatrimestre,curso,nombre,tipo,idProfesor,idGrado
+1,6,1,1,Matemáticas,Obligatoria,1,1
+2,4,2,2,Física,Obligatoria,2,1
+3,3,1,3,Historia,Optativa,3,2

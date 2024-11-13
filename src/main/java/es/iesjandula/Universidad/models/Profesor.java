@@ -56,4 +56,6 @@ public class Profesor
 	@OneToMany(mappedBy = "idProfesor")
 	private List<Asignatura> asignatura;
 	
+	
+	
 }
