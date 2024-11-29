@@ -9,7 +9,6 @@ import es.iesjandula.Universidad.models.Alumno;
 import es.iesjandula.Universidad.models.Asignatura;
 import es.iesjandula.Universidad.models.Curso;
 import es.iesjandula.Universidad.models.Matricula;
-import es.iesjandula.Universidad.models.MatriculaId;
 import es.iesjandula.Universidad.repository.AlumnoRepository;
 import es.iesjandula.Universidad.repository.AsignaturaRepository;
 import es.iesjandula.Universidad.repository.CursoRepository;
