@@ -1,0 +1,4 @@
+id,nif,nombre,fechNac,apellido1,apellido2,ciudad,direccion,sexo,telefono,idDepartamento
+1,12345678A,Carlos,1980-05-12,García,Lopez,Madrid,Calle Mayor 10,Masculino,600123456,1
+2,87654321B,Lucía,1975-09-23,Perez,Ruiz,Barcelona,Calle Sol 20,Femenino,600654321,2
+3,11223344C,Antonio,1982-11-15,Ramirez,Martinez,Valencia,Calle Luna 15,Masculino,600987654,1

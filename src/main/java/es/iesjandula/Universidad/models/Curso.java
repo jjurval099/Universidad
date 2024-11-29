@@ -28,7 +28,6 @@ public class Curso
 	@Column(length = 4, nullable = false)
 	private Integer aroFin;
 	
-	@OneToMany(mappedBy = "idCurso")
-	private List<Matricula>matricula;
-
+	//@OneToMany(mappedBy = "idCurso")
+	//private List<Matricula>matricula;
 }

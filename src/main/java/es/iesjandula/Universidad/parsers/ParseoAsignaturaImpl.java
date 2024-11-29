@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import es.iesjandula.Universidad.interfaces.IParseoAsignatura;
 import es.iesjandula.Universidad.models.Asignatura;
-import es.iesjandula.Universidad.models.Departamento;
 import es.iesjandula.Universidad.models.Grado;
 import es.iesjandula.Universidad.models.Profesor;
 import es.iesjandula.Universidad.repository.AsignaturaRepository;

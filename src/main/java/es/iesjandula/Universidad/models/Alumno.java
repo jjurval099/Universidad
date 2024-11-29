@@ -49,7 +49,10 @@ public class Alumno
 	@Column(length = 25)
 	private String telefono;
 	
-	@OneToMany(mappedBy = "idAlumno")
-	private List<Matricula>matricula;
+	//@OneToMany(mappedBy = "idAlumno")
+	//private List<Matricula>matricula;
+
+	
+	
 	
 }

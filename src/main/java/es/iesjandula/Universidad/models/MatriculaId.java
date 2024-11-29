@@ -18,12 +18,12 @@ public class MatriculaId implements Serializable
 	private static final long serialVersionUID = -433468710270308424L;
 	
 	/** Atributo - ID Alumno */
-	private Long idAlumno;
+	private Integer idAlumno;
 	
 	/** Atributo - ID Asignatura */
-	private Long idAsignatura;
+	private Integer idAsignatura;
 	
 	/** Atributo - ID Curso */
-	private Long idCurso;
+	private Integer idCurso;
 
 }

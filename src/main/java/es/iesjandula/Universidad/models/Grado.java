@@ -25,6 +25,7 @@ public class Grado
 	@Column(length = 5)
 	private String nombre;
 	
-	@OneToMany(mappedBy = "idGrado")
-	private List<Asignatura> asignatura;
+	//@OneToMany(mappedBy = "idGrado")
+	//private List<Asignatura> asignatura;
+	
 }
